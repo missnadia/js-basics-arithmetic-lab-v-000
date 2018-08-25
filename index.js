@@ -10,4 +10,4 @@ You should NOT try to redefine any of the above variables.
 
 const randomNumber = Math.floor(Math.random() * 20) + 1;
 let randomInteger = Math.floor(randomNumber);
-let randomUserID = Math.random(randomInteger) * 20) + 1000000000;
+let randomUserID = Math.floor(randomInteger) * 20) + 1000000000;
